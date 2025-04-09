@@ -1,0 +1,11 @@
+.webpage-container {
+    display: grid;
+}
+
+.header {
+    background-color: lightcoral;
+}
+
+img {
+    width: 90px;
+}
