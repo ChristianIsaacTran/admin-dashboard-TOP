@@ -118,7 +118,8 @@ input {
     justify-self: end;
 }
 
-.logo-icon{
+.logo-icon,
+.logo-name {
     align-self: center;
 }
 
