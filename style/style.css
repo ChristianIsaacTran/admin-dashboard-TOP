@@ -19,3 +19,7 @@ img {
 .sidebar {
     background-color: lightblue;
 }
+
+.main-content {
+    background-color: yellow;
+}
