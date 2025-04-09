@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    --title-card-gap: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -20,7 +34,7 @@ img {
 
 .webpage-container {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 4fr;
 }
 
@@ -109,8 +123,39 @@ input {
 }
 
 .main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
     background-color: yellow;
     grid-row: 2;
     grid-column: 2;
+    padding: 0 30px;
+    padding-bottom: 100px;
 }
 
+.main-content h3 {
+    align-self: end;
+}
+
+.left-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    gap: 15px;
+}
+
+
+
+.right-container { 
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+}
+
+
+.trend-container {
+    grid-row: 3 / 5;
+}
