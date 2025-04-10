@@ -169,10 +169,8 @@ input {
     border: 3px red solid;
 }
 
-
 .right-container { 
     display: grid;
     grid-template-rows: 0.5fr 2.3fr 0.4fr 2.3fr;
 }
-
 
