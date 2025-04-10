@@ -211,7 +211,7 @@ input {
     display: grid;
     grid-template-rows: 3fr 1fr;
     padding: 26px;
-    
+    border-left: 11px solid orange;
 }
 
 .card>ul {
