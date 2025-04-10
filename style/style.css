@@ -21,6 +21,7 @@
     --searchbar-bg-color: rgb(226, 232, 240);
     --card-bg-color: white;
     --main-content-shadow: rgb(117 117 117 / 33%);
+    --main-content-card-font-color: rgb(127, 127, 127);
 }
 
 h1,
@@ -32,6 +33,10 @@ h6,
 p {
     padding: 0;
     margin: 0;
+}
+
+p {
+    color: var(--main-content-card-font-color);
 }
 
 ul {
