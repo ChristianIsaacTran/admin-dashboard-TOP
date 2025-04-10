@@ -189,3 +189,15 @@ input {
 .card > ul li {
     justify-self: end;
 }
+
+.card-announcements {
+    padding: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.announce-content-top,
+.announce-content-middle {
+    border-bottom: 2px grey solid;
+}
