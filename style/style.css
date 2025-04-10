@@ -190,7 +190,7 @@ input {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-template-rows: repeat(3, 2fr);
     gap: 30px;
 }
