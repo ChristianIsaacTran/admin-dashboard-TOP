@@ -201,3 +201,20 @@ input {
 .announce-content-middle {
     border-bottom: 2px grey solid;
 }
+
+.card-trending {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 30px;
+}
+
+.trend-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.trend-content img {
+    justify-self: end;
+}
