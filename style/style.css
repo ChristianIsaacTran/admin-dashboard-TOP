@@ -157,6 +157,7 @@ input {
 .icon-group2,
 .logo-icon {
     justify-self: end;
+    filter: invert(50%) brightness(100);
 }
 
 .logo-icon,
@@ -321,3 +322,4 @@ label {
 .card-trending {
     box-shadow: 5px 5px 5px var(--main-content-shadow);
 }
+
